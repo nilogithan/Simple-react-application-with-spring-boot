@@ -1,0 +1,66 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .addButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .editButton {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .deleteButton {
+    background-color: #ff0000;
+    border: none;
+    color: black;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .viewButton {
+    background-color: #3366ff;
+    border: none;
+    color: black;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 4px;
+  }
