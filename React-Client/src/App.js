@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import ProjectIndex from "./component/Defect/ProjectIndex"
-import MiniDrawer from "./component/Test/test"
+import Layout from "./component/Defect/Layout"
 
 function App() {
   return (
     <div>
-    <MiniDrawer/>
+    <Layout/>
     <ProjectIndex/>
     {/* <h1>hello</h1> */}
     </div>

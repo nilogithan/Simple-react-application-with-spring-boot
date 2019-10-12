@@ -23,7 +23,7 @@ import Employee from "@material-ui/icons/AssignmentInd";
 import Defect from "@material-ui/icons/FindReplace";
 import InputBase from "@material-ui/core/InputBase";
 import { fade } from "@material-ui/core/styles/colorManipulator";
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 
 const drawerWidth = 200;
 
@@ -130,7 +130,7 @@ const styles = theme => ({
   }
 });
 
-class MiniDrawer extends Component {
+class Layout extends Component {
   constructor(props){
     super(props);
     this.state = {open: false};
@@ -234,15 +234,15 @@ class MiniDrawer extends Component {
                 <ListItemText primary={text} />
               </ListItem>
             ))} */}
-             <Link to="/">
-            <ListItem  >
+            
+            <ListItem button component="a" href="/">
             <ListItemIcon><View/></ListItemIcon>
             {/* <Link href="/"></Link> */}
             
             <ListItemText >Projects</ListItemText>
             
             </ListItem>
-            </Link>
+            
             <ListItem>
             <ListItemIcon><Employee/></ListItemIcon>
             <ListItemText>Employees</ListItemText>
@@ -259,9 +259,9 @@ class MiniDrawer extends Component {
   }
 }
 
-MiniDrawer.propTypes = {
+Layout.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired
 };
 
-export default withStyles(styles, { withTheme: true })(MiniDrawer);
+export default withStyles(styles, { withTheme: true })(Layout);
